@@ -1,0 +1,95 @@
+body {
+	background-color: bisque;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 20px;
+	line-height: 1.4em;
+	color: dimgrey;
+}
+
+h1 {
+	margin-left: 30px;
+	color: dimgrey;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h2 {
+	color: dimgrey;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+}
+
+.navigation, .content, .img-container {
+	border: 5px solid cadetblue;
+	position: relative;
+	width: 960px;
+	margin: 10px auto;
+	border-radius: 20px;
+	border-left: none;
+	border-right: none;
+
+}
+
+.navigation ul {
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	font-variant: small-caps;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: tomato;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+
+a:hover {
+	text-shadow: 2px 4px 6px dimgrey;
+}
+
+.img-container {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.big-img {
+	margin-left: 40px;
+	float: left;
+}
+
+.border {
+	border: 8px double tomato;
+}
+
+.small-img {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 415px;
+	height: 420px;	
+}
+
+.small-1 {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+/*MAKE THIS THE BOTTOM*/
